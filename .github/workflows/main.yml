@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  build_godot_windows:
+    runs-on: ubuntu-latest
+    name: Build for Windows
+    steps:
+      - name: Hello world action step
+        id: build/win
+        uses: bbrieber/godot_ci_image@v1
+        with:
+          build-config: 'WindowsDesktop'
