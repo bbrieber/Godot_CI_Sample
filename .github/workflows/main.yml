@@ -6,7 +6,7 @@ jobs:
     name: Build for Windows
     steps:
       - name: Hello world action step
-        id: build/win
+        id: build_win
         uses: bbrieber/godot_ci_image@v1
         with:
           build-config: 'WindowsDesktop'
