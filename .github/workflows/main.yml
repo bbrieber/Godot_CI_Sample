@@ -11,3 +11,8 @@ jobs:
         uses: bbrieber/godot_ci_image@latest
         with:
           build-config: 'WindowsDesktop'
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: windows
+          path: export/windows
