@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: Hello world action step
         id: build_win
-        uses: bbrieber/godot_ci_image@f2a598618a86f83a8847d7647e7ffc02da4a1caf
+        uses: bbrieber/godot_ci_image@54843ce1bb2d2f79479bb0d2b1e33cc8ea2921fc
         with:
           build-config: 'WindowsDesktop'
