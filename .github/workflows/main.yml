@@ -8,6 +8,6 @@ jobs:
       - uses: actions/checkout@v1
       - name: Hello world action step
         id: build_win
-        uses: bbrieber/godot_ci_image@2bcb2cfe42157814f9ddd015ffdbff79c38ca233
+        uses: bbrieber/godot_ci_image@469ac9671c6716bb16ffb5fd2766fd0e6eb53a8e
         with:
           build-config: 'WindowsDesktop'
