@@ -8,7 +8,7 @@ jobs:
       - uses: actions/checkout@v1
       - name: Hello world action step
         id: build_win
-        uses: bbrieber/godot_ci_image:v4.5
+        uses: bbrieber/godot_ci_image:v4.5@98ea86b83f9ca1e0c35d190f1fb19f818c68e0c4
         with:
           build-config: 'WindowsDesktop'
       - name: Upload Artifact
