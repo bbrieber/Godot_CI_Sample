@@ -12,7 +12,7 @@ jobs:
         with:
           build-config: 'WindowsDesktop'
       - name: Upload Artifact
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
           name: windows
           path: export/windows/release.zip
